@@ -9,11 +9,17 @@ let estado = true;
 
 // Esto es un comentario
 // var
-let nombre = prompt('Ingrese su nombre: ')
+/* let nombre = prompt('Ingrese su nombre: ')
 
 if (nombre == 'root') {
     alert('Acceso correcto')
 }
 else {
     alert('Acceso denegado')
-}
+} */
+
+// Solicitar al usuario que ingrese su nombre
+let nombre = prompt("Por favor, ingresa tu nombre:");
+
+// Mostrar un mensaje de bienvenida
+alert("¡Bienvenido/a, " + nombre + "!");
